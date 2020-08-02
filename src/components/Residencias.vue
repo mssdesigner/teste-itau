@@ -4,10 +4,10 @@
       <div class="card text-center">
         <div class="card-body">
           <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-lg-8">
               <h3 class="card-title">{{ title }}</h3>
             </div>
-            <div class="col-3">
+            <div class="col">
               <button type="button" class="btn btn-primary btn-block" @click="medias">Average</button>
             </div>
           </div>
