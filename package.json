@@ -17,9 +17,7 @@
     "popper.js": "^1.16.1",
     "vue": "^2.6.11",
     "vue-router": "^3.3.4",
-    "vuex": "^3.5.1"
-  },
-  "devDependencies": {
+    "vuex": "^3.5.1",
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-eslint": "~4.4.0",
     "@vue/cli-service": "~4.4.0",
