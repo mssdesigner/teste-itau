@@ -7,6 +7,9 @@
 <script>
 export default {
   name: "App",
+  created() {
+    document.title = "Teste Itáu em Vue.js";
+  }
 };
 </script>
 
