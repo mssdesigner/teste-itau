@@ -8,7 +8,7 @@
               <h3 class="card-title">{{ title }}</h3>
             </div>
             <div class="col">
-              <button type="button" class="btn btn-primary btn-block" @click="medias">Average Price</button>
+              <button type="button" class="btn btn-info btn-block" @click="medias">Average Price</button>
             </div>
           </div>
           <ul class="list-group mt-2">
@@ -78,6 +78,9 @@ a:hover {
 }
 li span:first-child {
   cursor: pointer;
+}
+li a {
+  color:#17a2b8;
 }
 ul {
   height: 500px;
