@@ -9,8 +9,8 @@
           <h5 class="card-title">
             <strong>{{ detalhe.name }}</strong>
           </h5>
-          <h6 class="card-title">{{ detalhe.host_name }}</h6>
-          <h6 class="card-title">{{ detalhe.neighbourhood }} - {{ detalhe.neighbourhood_group }}</h6>
+          <p class="card-title">{{ detalhe.host_name }}</p>
+          <p class="card-title">{{ detalhe.neighbourhood }} - {{ detalhe.neighbourhood_group }}</p>
           <p class="card-text">
             {{ detalhe.room_type }}
             <span
