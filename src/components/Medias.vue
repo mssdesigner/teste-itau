@@ -9,7 +9,7 @@
               <list
                 :key="item.id"
                 descricao="Price: $"
-                :valor="item.price"
+                :valor="parseFloat(item.price.toFixed(2))"
               >{{ item.neighbourhood_group }}</list>
             </template>
           </ul>
