@@ -48,7 +48,7 @@ export default {
     },
   },
   created() {
-    this.$eventBus.$on("paginacao", (obj) => this.paginacao(obj));
+    this.$eventBus.$on("paginacao", obj => this.paginacao(obj));
     this.filtrar();
   },
   mounted() {
