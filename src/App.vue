@@ -7,7 +7,7 @@
 <script>
 export default {
   name: "App",
-  created() {
+  beforeCreate() {
     document.title = "Teste Itáu em Vue.js";
   }
 };
