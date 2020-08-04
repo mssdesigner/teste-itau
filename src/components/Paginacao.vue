@@ -7,8 +7,9 @@
       <li class="page-item link">
         <span class="page-link" @click="paginaAnterior">Previous</span>
       </li>
-      <li class="page-item active">
-        <span class="page-link">{{ paginaAtual }}</span>
+      <li class="page-item px-1">
+        <input type="text" class="form-control text-center" style="background-color: #007bff;color: white;" @keypress.enter="paginacao" v-model="paginaAtual">
+        <!-- <span class="page-link">{{ paginaAtual }}</span> -->
       </li>
       <li class="page-item link">
         <span class="page-link" @click="proximaPagina">Next</span>
